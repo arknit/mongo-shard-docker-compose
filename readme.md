@@ -36,7 +36,7 @@ This script has a `sleep 20` to wait for the config server and shards to elect t
 **Verify the status of the sharded cluster**
 
 ```
-docker-compose exec router mongo
+docker-compose exec router mongo --port 27027
 mongos> sh.status()
 --- Sharding Status ---
   sharding version: {
@@ -70,7 +70,7 @@ The cluster only has to be initialized on the first run. Subsequent startup can 
 Its as simple as:
 
 ```
-docker-compose exec router mongo
+docker-compose exec router mongo --port 27027
 ```
 
 ### Resetting the Cluster
