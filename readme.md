@@ -1,3 +1,8 @@
+Install Docker & Docker Compose
+===================================
+https://cloudcone.com/docs/article/how-to-install-docker-on-ubuntu-22-04-20-04/
+sudo apt install docker-compose.
+
 Mongo Sharded Cluster with Docker Compose
 =========================================
 A simple sharded Mongo Cluster with a replication factor of 2 running in `docker` using `docker-compose`.
